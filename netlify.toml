@@ -1,0 +1,6 @@
+[build]
+	# command = "rm -r publis && npm run build"
+	# functions = "functions"
+	publish = "public"
+							
+	# more info https://www.netlify.com/docs/netlify-toml-reference/

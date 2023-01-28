@@ -18,3 +18,5 @@
 /node_modules
 /public
 /otros
+# Local Netlify folder
+.netlify
