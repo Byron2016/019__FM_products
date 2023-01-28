@@ -1,0 +1,23 @@
+/* BREAKPOINTS */
+
+/* 600 */
+$breakpoints-up: (
+  "small": 37.5em,
+);
+
+/* 599.98 */
+$breakpoints-down: (
+  "small": 37.49875em,
+);
+
+@mixin breakpoints-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoint-down, $size)) {
+    @content;
+  }
+}
