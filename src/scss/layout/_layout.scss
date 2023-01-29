@@ -13,7 +13,7 @@ body {
   place-content: center;
   margin: 1rem;
 
-  // background: red;
+  background: red; /*002*/
 }
 
 .flex_group {
@@ -56,7 +56,7 @@ body {
 
 .button[data-icon="shopping-cart"]::before {
   content: "002";
-  
+
   width: 15px;
   height: 16px;
 }
