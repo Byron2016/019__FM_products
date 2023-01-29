@@ -55,8 +55,8 @@ body {
 }
 
 .button[data-icon="shopping-cart"]::before {
-  content: "";
-  background-image: url("../assets/icon-cart.svg");
+  content: "002";
+  
   width: 15px;
   height: 16px;
 }
