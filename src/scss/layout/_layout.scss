@@ -84,6 +84,7 @@ body {
   max-width: 600px;
 
   @include u.breakpoints-up(small) {
+    transition: ease all 0.3s;
     --content-padding-alt: 2rem;
     grid-template-columns: 1fr 1fr;
   }
